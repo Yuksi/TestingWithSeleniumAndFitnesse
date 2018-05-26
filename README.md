@@ -10,14 +10,14 @@ fitnesse test is:
  
 !path D:\documents\java\IdeaProjects\test\target\classes
  
-| letter.MailFixture | \n
-| login | psw | login? |
-| yuksi_test | test_yuksi | true |
-| yuksi_test | te | false |
-| yuk | te | false |
-| abracadabraabracadabra | te | false |
-|  | te | false |
-| yuksi_test |  | false |
+| letter.MailFixture |  
+| login | psw | login? |  
+| yuksi_test | test_yuksi | true |  
+| yuksi_test | te | false |  
+| yuk | te | false |  
+| abracadabraabracadabra | te | false |  
+|  | te | false |  
+| yuksi_test |  | false |  
 | ??// |  | false |
 
 for now - I have exception in fitnesse - java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
