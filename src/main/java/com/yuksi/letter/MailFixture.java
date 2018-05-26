@@ -1,8 +1,6 @@
-package letter;
+package com.yuksi.letter;
 
 public class MailFixture {
-    private String login;
-    private String psw;
     private WorkWithMail workWithMail;
 
     public MailFixture() {
@@ -11,11 +9,11 @@ public class MailFixture {
     }
 
     public void setLogin(String login) {
-        this.login = login;
+        this.workWithMail.setLogin(login);
     }
 
     public void setPsw(String psw) {
-        this.psw = psw;
+        this.workWithMail.setPsw(psw);
     }
 
     public String login() {

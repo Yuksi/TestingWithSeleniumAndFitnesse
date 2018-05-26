@@ -1,4 +1,4 @@
-package letter;
+package com.yuksi.letter;
 
 import java.util.concurrent.TimeUnit;
 
