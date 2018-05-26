@@ -1,11 +1,13 @@
 # TestingWithSeleniumAndFitnesse
+
 I started test with login to mail ukr.net
 
 running java -jar fitnesse-standalone.jar -p 2222 (because default port is already in use)
 
 
 
-fitnesse test is:
+fitnesse test is:  
+
 !define TEST_SYSTEM {slim}
  
 !path D:\documents\java\IdeaProjects\test\target\classes
@@ -20,5 +22,5 @@ fitnesse test is:
 | yuksi_test |  | false |  
 | ??// |  | false |
 
-for now - I have exception in fitnesse - java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
+for now - I have exception in fitnesse - java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver  
 dependencies are in project, so I didn't find out the reason yet
