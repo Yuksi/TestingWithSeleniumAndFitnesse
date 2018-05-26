@@ -10,7 +10,7 @@ fitnesse test is:
  
 !path D:\documents\java\IdeaProjects\test\target\classes
  
-| letter.MailFixture |
+| letter.MailFixture | \n
 | login | psw | login? |
 | yuksi_test | test_yuksi | true |
 | yuksi_test | te | false |
